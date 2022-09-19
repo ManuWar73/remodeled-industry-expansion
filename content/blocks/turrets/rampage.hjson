@@ -6,7 +6,7 @@ shootCone: 5
 baseExplosiveness: 0
 maxAmmo: 200
 range: 600
-reload: 2
+reload: 120
 rotateSpeed: 30
 canOverdrive: true
 recoil: 2
@@ -16,9 +16,9 @@ ammoPerShot: 0.1
         "type":"ShootAlternate",
         "barrels": 4,
         "spread": 2
-        shots: 30
-        shotDelay: 2
-        firstShotDelay: 180
+        shots: 60
+        shotDelay: 1
+        firstShotDelay: 120
     },
 ammoTypes: {
 silicon: {
@@ -50,13 +50,13 @@ hitEffect: {
            }
 chargeEffect: {
   type: MultiEffect
-  lifetime: 180
+  lifetime: 120
   effects: [
     {
       type: WaveEffect
       sizeFrom: 80
       sizeTo: 0
-      lifetime: 180
+      lifetime: 120
       colorFrom: ffffff
       colorTo: 000000
       strokeFrom: 5
