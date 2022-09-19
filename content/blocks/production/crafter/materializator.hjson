@@ -1,5 +1,6 @@
 type: multicraft.MultiCrafter
-recipes: 
+size: 2
+recipes: {
 [
 {
   input: {
@@ -15,4 +16,9 @@ recipes:
     power: 1
   }
   craftTime: 120
+]
+}
+category: crafting
+requirements: [
+  copper/6000
 ]
