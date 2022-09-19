@@ -8,7 +8,7 @@ recipes:
   input: {
     power: 2
     items: [
-        explosive-compound/1
+        blast-compound/1
         sand/3
         coal/3
     ]
