@@ -1,4 +1,5 @@
 type: multicraft.MultiCrafter
+name: materializator
 size: 4
 health: 400
 recipes: 

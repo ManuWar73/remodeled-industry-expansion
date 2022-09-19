@@ -21,7 +21,7 @@ ammoPerShot: 0.1
         firstShotDelay: 120
     },
 ammoTypes: {
-silicon: {
+basicbullet: {
 type: "BasicBulletType"
 damage: 60
 lifetime: 90

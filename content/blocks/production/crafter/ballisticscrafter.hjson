@@ -1,0 +1,41 @@
+type: multicraft.MultiCrafter
+name: "Ballistic crafter"
+size: 4
+health: 400
+recipes: 
+[
+{
+  input: {
+    power: 2
+    items: [
+        explosive-compound/1
+        sand/3
+        coal/3
+    ]
+  }
+  output: {
+    items: [
+      remodeled-expansion-gunpowder/5
+    ]
+  }
+  craftTime: 60
+}
+{
+  input: {
+    items: [
+      remodeled-expansion-gunpowder/1
+      copper/2
+    ]
+  }
+  output: {
+    items: [
+      remodeled-expansion-bascibullet/1
+    ]
+  }
+  craftTime: 30
+}
+]
+category: crafting
+requirements: [
+  copper/6000
+]
