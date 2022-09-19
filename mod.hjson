@@ -4,4 +4,4 @@ author: "ManuWar73"
 description: "Adds extra things to remodeled industry that requires mod dependencies."
 minGameVersion: 137
 hiddenBrowser: "false"
-"dependencies": ["remodeled-industry, multi-crafter"],
+"dependencies": ["remodeled-industry", "multi-crafter"],
