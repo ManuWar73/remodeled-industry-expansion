@@ -11,7 +11,7 @@ rotateSpeed: 30
 canOverdrive: true
 recoil: 2
 shootSound: none
-ammoPerShot: 0.1
+ammoPerShot: 60
 "shoot": {
         "type":"ShootAlternate",
         "barrels": 4,
