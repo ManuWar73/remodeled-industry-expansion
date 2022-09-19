@@ -1,5 +1,6 @@
 type: multicraft.MultiCrafter
-size: 2
+size: 4
+health: 400
 recipes: [
 {
   input: {
