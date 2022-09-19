@@ -27,11 +27,12 @@ damage: 60
 lifetime: 90
 pierce: true
 pierceCap: 10
-homingPower: 5
-homingRange: 40
+homingPower: 50
+homingRange: 80
 speed: 7.5
 shootEffect: none
 smokeEffect: none
+homingDelay: 0
 hitEffect: {
         type: MultiEffect
         lifetime: 60
