@@ -29,7 +29,7 @@ recipes:
   }
   output: {
     items: [
-      remodeled-expansion-bascibullet/1
+      remodeled-expansion-basicbullet/1
     ]
   }
   craftTime: 30
