@@ -5,7 +5,7 @@ recipes:
 [
 {
   input: {
-    liquids: [
+    fluids: [
       slag/120
     ]
     power: 2
@@ -14,9 +14,26 @@ recipes:
     items: [
       thorium/5
     ]
-    power: 1
   }
-  craftTime: 250.0
+  craftTime: 240
+}
+{
+  input: {
+    items: [
+      silicon/2
+    ]
+    fluids: [
+      cryofluid/60
+      slag/60
+    ]
+    power: 10
+  }
+  output: {
+    items: [
+      surge-alloy/1
+    ]
+  }
+  craftTime: 120
 }
 ]
 category: crafting
