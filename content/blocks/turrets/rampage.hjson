@@ -1,0 +1,81 @@
+name: Rampage
+type: itemTurret
+size: 2
+health: 10000
+shootCone: 5
+baseExplosiveness: 0
+maxAmmo: 200
+range: 600
+reload: 2
+rotateSpeed: 30
+canOverdrive: true
+recoil: 2
+shootSound: none
+ammoPerShot: 0.1
+"shoot": {
+        "type":"ShootAlternate",
+        "barrels": 4,
+        "spread": 2
+        shots: 30
+        shotDelay: 2
+        firstShotDelay: 180
+    },
+ammoTypes: {
+silicon: {
+type: "BasicBulletType"
+damage: 60
+lifetime: 90
+pierce: true
+pierceCap: 10
+homingPower: 5
+homingRange: 40
+speed: 7.5
+shootEffect: none
+smokeEffect: none
+hitEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
+chargeEffect: {
+  type: MultiEffect
+  lifetime: 180
+  effects: [
+    {
+      type: WaveEffect
+      sizeFrom: 80
+      sizeTo: 0
+      lifetime: 180
+      colorFrom: ffffff
+      colorTo: 000000
+      strokeFrom: 5
+      strokeTo: 0
+    }
+    ]
+     }
+    }
+  }
+requirements: [
+  titanium/300
+  copper/1200
+  graphite/200
+  thorium/500
+  plastanium/105
+  surge-alloy/150
+  lead/400
+  pyratite/100
+  phase-fabric/950
+
+]
+category: turret
