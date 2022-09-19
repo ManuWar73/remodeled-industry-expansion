@@ -1,0 +1,7 @@
+displayName: "Remodeled Industry Expansion Pack"
+name: "remodeled-expansion"
+author: "ManuWar73"
+description: "Adds extra things to remodeled industry that requires mod dependencies."
+minGameVersion: 137
+hiddenBrowser: "false"
+"dependencies": ["remodeled-indsutry, multi-crafter"],
