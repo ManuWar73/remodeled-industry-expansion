@@ -1,7 +1,6 @@
 type: multicraft.MultiCrafter
 size: 2
-recipes: {
-[
+recipes: [
 {
   input: {
     liquids: [
