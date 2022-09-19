@@ -1,23 +1,24 @@
 type: multicraft.MultiCrafter
 size: 4
 health: 400
-recipes: [
+recipes: 
+[
 {
   input: {
     liquids: [
-      slag/240
+      slag/120
     ]
     power: 2
-    }
+  }
   output: {
     items: [
       thorium/5
     ]
     power: 1
   }
-  craftTime: 120
-]
+  craftTime: 250.0
 }
+]
 category: crafting
 requirements: [
   copper/6000
