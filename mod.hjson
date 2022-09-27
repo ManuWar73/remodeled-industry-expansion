@@ -1,7 +1,8 @@
 displayName: "Remodeled Industry Expansion Pack"
 name: "remodeled-expansion"
 author: "ManuWar73"
-description: "Adds extra things to remodeled industry that requires mod dependencies."
+description: "Adds extra things to remodeled industry.\n\nRequires ManuWar73/remodeled-industry- and liplum/MultiCrafterLib."
 minGameVersion: 137
-hiddenBrowser: "false"
-"dependencies": ["remodeled-industry", "multi-crafter"],
+hideBrowser: "false"
+"dependencies": ["remodeled-industry", "multi-crafter"]
+# drifted notes was here
